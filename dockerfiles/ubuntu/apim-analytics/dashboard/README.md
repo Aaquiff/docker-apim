@@ -32,10 +32,10 @@ git clone https://github.com/wso2/docker-apim.git
 > Here, only port 9643 has been mapped to a Docker host port.
 You may map other container service ports, which have been exposed to Docker host ports, as desired.
 
-##### 4. Accessing the Dashboard portal.
+##### 4. Accessing the Dashboard.
 
 - For dashboard,
-    + `https:<DOCKER_HOST>:9643/portal`
+    + `https:<DOCKER_HOST>:9643/analytics-dashboard`
     
 > In here, <DOCKER_HOST> refers to hostname or IP of the host machine on top of which containers are spawned.
 
